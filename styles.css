@@ -263,6 +263,56 @@ nav {
   border-bottom: 1px solid #dfe1e6;
 }
 
-.about_stacks__item:hover {
+.about_stacks__item:hover,
+.about_stacks__item-noborder {
   background-color: #f1f1f1;
+}
+
+.lang {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.js {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding: 10px 7px;
+  margin-bottom: 10px;
+}
+
+.css {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding: 10px 7px;
+}
+
+.html {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding: 10px 7px;
+}
+
+.lang > li > h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }
