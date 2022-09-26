@@ -1,6 +1,8 @@
-# Portfolio Mobile First Setup
+# Portfolio: finish mobile version
 
 > This project has been built as part of the reviewers exercise or training.
+> Build the middle section of the mobile website. 
+> The "About myself" section.
 
 ## Built With
 
@@ -30,8 +32,9 @@ Give a ⭐️ if you like this project!
 
 - Robert
 - Inspiration
-- My Father who morally supported me
-- My weekly Micronut team
+- My Father who morally supported me.
+- My sister
+- My weekly Micronut team (especially Robert and Mujeeb)
 
 ## 📝 License
 
