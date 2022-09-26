@@ -225,6 +225,11 @@ nav {
   margin-right: 1.5rem;
   padding: 4px 12px;
 }
+.project_coding_langs > li {
+  float: left;
+}
+
+
 
 .card > .project_details > li:first-child {
   list-style: none;
