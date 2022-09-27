@@ -1,9 +1,6 @@
 # Portfolio: finish mobile version
 
 > This project has been built as part of the reviewers exercise or training.
-> Build the middle section of the mobile website. 
-> The "about-myself myself" section.
-> Contact me form section
 
 ## Built With
 
