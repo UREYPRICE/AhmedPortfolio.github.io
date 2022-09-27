@@ -345,7 +345,7 @@ nav {
 .form-heading {
   margin-top: 100px;
   align-items: center;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -354,7 +354,7 @@ nav {
 }
 
 .form-para {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -372,7 +372,7 @@ textarea {
   width: 327px;
   margin: auto;
   margin-bottom: 15px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 12px;
@@ -393,7 +393,7 @@ form > ul {
 }
 
 .form-btn {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
