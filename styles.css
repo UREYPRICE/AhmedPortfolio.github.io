@@ -331,7 +331,6 @@ nav {
 }
 
 .container {
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -349,6 +348,8 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .img-1 {
@@ -484,7 +485,7 @@ form > ul {
 
   nav {
     padding: 15px 143px 100px 143px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -522,6 +523,13 @@ form > ul {
     line-height: 52px;
   }
 
+  .lang > li {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    padding: 12px 20px;
+  }
+
   .card > .desktop-work-detail > .project_details > li {
     font-weight: 500;
     font-size: 18px;
@@ -547,32 +555,33 @@ form > ul {
 
   .about {
     width: 100%;
-    padding-left: 100px;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    padding: 142px 142px;
   }
 
   .desktop-about {
-    width: 26%;
+    width: 100%;
   }
 
   .desktop-lang {
     width: 55%;
-    margin-top: -25px;
   }
 
   .lang {
+    width: 90%;
     flex-direction: row;
+    column-gap: 20px;
   }
 
   .container {
     width: 100%;
-    height: 100%;
   }
 
   .section {
     width: 100%;
-    height: 100%;
     background-image: url(images/desktop-contact-form.svg);
     background-position: center;
     background-size: contain;
@@ -580,7 +589,7 @@ form > ul {
     border-radius: 150px 0 0 0;
   }
 
-  .section > .desktop-form-margin > p {
+  .form-para {
     width: 30%;
     margin: auto;
     text-align: center;
@@ -602,5 +611,9 @@ form > ul {
   .desktop-form-margin {
     margin: auto;
     margin-top: 100px;
+  }
+
+  button:hover {
+    background: #6070ff;
   }
 }
