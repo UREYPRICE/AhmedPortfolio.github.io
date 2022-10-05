@@ -1,0 +1,27 @@
+.card{
+  padding: 10px;
+}
+.desktop-work-detail{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  list-style: none;
+}
+.project_details , .project_coding_langs{
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.project_details > li
+,.project_coding_langs > li {
+  margin: 10px;
+}
+
+.first-card{
+margin-top: 120px;
+margin-bottom: 120px;
+}
