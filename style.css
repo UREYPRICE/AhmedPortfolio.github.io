@@ -3,7 +3,7 @@
 }
 .desktop-work-detail{
   margin: 20px;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
 }
 
@@ -24,4 +24,32 @@ ul{
 .first-card{
 margin-top: 120px;
 margin-bottom: 120px;
+}
+
+
+.icons-so {
+  font-size: 30px;
+  margin: 7px;
+}
+
+.rounded-bg {
+  border-radius: 150px 0 0 0;
+}
+
+.main-headline {
+  background-image: url(images/big-header-svg.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section {
+  background-image: url(images/desktop-contact-form.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.github-share {
+  width: 24px;
 }
