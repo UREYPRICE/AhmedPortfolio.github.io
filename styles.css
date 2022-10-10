@@ -269,6 +269,12 @@ nav {
   padding: 1.5rem 0;
 }
 
+@media only screen and (max-width: 799px) {
+  .about__stacks {
+    width: 300px;
+  }
+}
+
 .about_stacks__item {
   display: flex;
   justify-content: space-between;
@@ -522,7 +528,7 @@ form > ul {
     font-size: 16px;
   }
 
-  .desktop-work-detail > h3 {
+  .desktop-work-detail > h2 {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -571,12 +577,8 @@ form > ul {
     width: 100%;
   }
 
-  .desktop-lang {
-    width: 55%;
-  }
-
   .lang {
-    width: 90%;
+    width: 55%;
     flex-direction: row;
     column-gap: 20px;
   }
