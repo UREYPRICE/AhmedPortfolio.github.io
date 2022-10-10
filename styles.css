@@ -24,6 +24,7 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(229, 226, 226);
+  z-index: 1;
 }
 
 h1 {
@@ -616,4 +617,36 @@ form > ul {
   button:hover {
     background: #6070ff;
   }
+}
+
+.mobile-menu {
+  background: #6070ff;
+  opacity: 0.888;
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+  position: absolute;
+  display: none;
+}
+
+.mobile-menu > ul {
+  margin-top: -10px;
+}
+
+.mobile-menu-items > li {
+  padding: 10px 10px;
+}
+
+.mobile-menu-items > li > a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.menu-cross {
+  margin-top: 28px;
+  margin-right: 28px;
+  display: flex;
+  justify-content: flex-end;
 }

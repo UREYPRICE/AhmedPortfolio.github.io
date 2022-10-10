@@ -21,11 +21,23 @@
   <body>
     <div class="after-bdy">
       <div class="portfolio-class">
+        <div id="mobile-menu" class="mobile-menu">
+          <div class="menu-cross" >
+             <img onclick="myFunction()" class="cross-btn" src="images/menu-cross.png" alt="">
+          </div>
+         
+                  <ul class="mobile-menu-items">
+            <li><a onclick="myFunction()" href="#portfolio-id">Portoflio</a></li>
+            <li><a onclick="myFunction()" href="#about-id">About</a></li>
+            <li><a onclick="myFunction()"  href="#contact-me-id">Contact</a></li>
+          </ul>
+
+        </div>
         <nav class="flex white-back">
           <a id="title" href="#">My Logo</a>
 
           <div class="flex icon-stack-container">
-            <span id="icon-stack"></span>
+            <span onclick="myFunction()" id="icon-stack" class="icon-stack-nav"></span>
           </div>
           <ul class="desktop-menu-list">
             <li><a href="#">Portoflio</a></li>
@@ -33,8 +45,9 @@
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
+        
         <main class="main-headline white-back">
-          <section class="desktop-about-section">
+          <section id ="about-id"class="desktop-about-section">
             <h1>
               I'm Ahmed <br />
               Glad to see you!
@@ -68,7 +81,7 @@
           </section>
         </main>
         <section class="projects">
-          <div class="desktop-project-container">
+          <div id="portfolio-id" class="desktop-project-container">
             <article class="card flex white-back">
               <div class="desktop-wrok-img">
                 <img
@@ -299,7 +312,7 @@
         </section>
 
         <section class="about white-back">
-          <div class="desktop-about">
+          <div id="contact-me-id" class="desktop-about">
             <h1>
               About <br />
               Myself
@@ -411,5 +424,7 @@
         </form>
       </div>
     </section>
+    
   </body>
+  <script src="script.js"></script>
 </html>

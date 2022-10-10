@@ -1,0 +1,104 @@
+Script started on 2022-10-10 19:12:13+05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="133" LINES="23"]
+]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# [K]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# [K]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# [K]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# [K]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# [K]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# [K]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# [K]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# [K]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# git pullcheckout portfolio-prototypekout portfolio-porototypebranch[K[2Ppullbranch portfolio-prototype[K[4Pcode .d AhmedPortfolio.github.io/ls[Kcd current/ls[Kcd ..[3Plsgit push -u origin bootstrapcommit -m "Add css to style classes"[23Padd style.csscommit -m "Add Classes"[9Padd index.htmlpull[Ksh -u origin bootstrapcommit -m "Add bootstrap to html"branch [Kadd index.htmlcheckout bootstrap[2Pbranch[C[C[C[C[C[C[C[C[C[Cpull[Ksh -u origin accessibilitycommit -m "Added accessibility best practices"add index.html[Kcheckout accessibility[2Pbranch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pcheckout masterdesktop-versionbranch[K[4Pcode .d AhmedPortfolio.github.io/ls[Kcd current/ls[Kcd ..[3Plsgit push -u origin desktop-devcommit -m "Add live Demo link to README"add README.md[Kpush -u origin desktop-devcommit -m "Fix the language icon's width"[27Padd styles.css[8Pbranchnpx stylelint "**/*.{css,scss}"git pull[Knpx stylelint "**/*.{css,scss}"
+
+[4mstyles.css[24m
+  [2m27:11[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                                               [2mdeclaration-colon-space-after[22m           
+ [2m622:12[22m  [31m[31m✖[39m  Expected single space before "{"                                                                             [2mblock-opening-brace-space-before[22m        
+ [2m623:15[22m  [31m[31m✖[39m  Expected "#6070FF" to be "#6070ff"                                                                           [2mcolor-hex-case[22m                          
+ [2m624:3[22m   [31m[31m✖[39m  Expected empty line before comment                                                                           [2mcomment-empty-line-before[22m               
+ [2m625:11[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                                               [2mdeclaration-colon-space-after[22m           
+ [2m628:11[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                                               [2mdeclaration-colon-space-after[22m           
+ [2m630:16[22m  [31m[31m✖[39m  Unexpected whitespace before ";"                                                                             [2mdeclaration-block-semicolon-space-before[22m
+ [2m631:3[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                                                             [2mindentation[22m                             
+ [2m633:1[22m   [31m[31m✖[39m  Expected no more than 1 empty line                                                                           [2mmax-empty-lines[22m                         
+ [2m634:17[22m  [31m[31m✖[39m  Expected single space before "{"                                                                             [2mblock-opening-brace-space-before[22m        
+ [2m635:14[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                                               [2mdeclaration-colon-space-after[22m           
+ [2m636:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                                                             [2mindentation[22m                             
+ [2m637:1[22m   [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".socials > ul > li"                     [2mno-descending-specificity[22m               
+ [2m637:1[22m   [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail >          [2mno-descending-specificity[22m               
+            .project_details > li"                                                                                                                               
+ [2m637:1[22m   [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail >          [2mno-descending-specificity[22m               
+            .project_coding_langs > li"                                                                                                                          
+ [2m637:1[22m   [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail >          [2mno-descending-specificity[22m               
+            .project_details > li:first-child"                                                                                                                   
+ [2m637:1[22m   [31m[31m✖[39m  Expected empty line before rule                                                                              [2mrule-empty-line-before[22m                  
+ [2m642:1[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                                                             [2mindentation[22m                             
+ [2m643:1[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                                                             [2mindentation[22m                             
+ [2m644:1[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                                                             [2mindentation[22m                             
+ [2m645:1[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                                                             [2mindentation[22m                             
+ [2m648:11[22m  [31m[31m✖[39m  Expected single space before "{"                                                                             [2mblock-opening-brace-space-before[22m        
+ [2m650:16[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                                               [2mdeclaration-colon-space-after[22m           
+ [2m653:1[22m   [31m[31m✖[39m  Unexpected missing end-of-source newline                                                                     [2mno-missing-end-of-source-newline[22m
+
+]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# npx stylelint "**/*.{css,scss}"
+
+[4mstyles.css[24m
+  [2m27:11[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                                               [2mdeclaration-colon-space-after[22m           
+ [2m623:15[22m  [31m[31m✖[39m  Expected "#6070FF" to be "#6070ff"                                                                           [2mcolor-hex-case[22m                          
+ [2m624:11[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                                               [2mdeclaration-colon-space-after[22m           
+ [2m627:11[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                                               [2mdeclaration-colon-space-after[22m           
+ [2m629:16[22m  [31m[31m✖[39m  Unexpected whitespace before ";"                                                                             [2mdeclaration-block-semicolon-space-before[22m
+ [2m633:14[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                                               [2mdeclaration-colon-space-after[22m           
+ [2m634:2[22m   [31m[31m✖[39m  Expected indentation of 0 spaces                                                                             [2mindentation[22m                             
+ [2m636:1[22m   [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".socials > ul > li"                     [2mno-descending-specificity[22m               
+ [2m636:1[22m   [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail >          [2mno-descending-specificity[22m               
+            .project_details > li"                                                                                                                               
+ [2m636:1[22m   [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail >          [2mno-descending-specificity[22m               
+            .project_coding_langs > li"                                                                                                                          
+ [2m636:1[22m   [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail >          [2mno-descending-specificity[22m               
+            .project_details > li:first-child"                                                                                                                   
+ [2m641:1[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                                                             [2mindentation[22m                             
+ [2m642:1[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                                                             [2mindentation[22m                             
+ [2m643:1[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                                                             [2mindentation[22m                             
+ [2m644:1[22m   [31m[31m✖[39m  Expected indentation of 2 spaces                                                                             [2mindentation[22m                             
+ [2m647:11[22m  [31m[31m✖[39m  Expected single space before "{"                                                                             [2mblock-opening-brace-space-before[22m        
+ [2m649:16[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                                               [2mdeclaration-colon-space-after[22m
+
+]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# npx stylelint "**/*.{css,scss}"
+
+[4mstyles.css[24m
+ [2m636:1[22m   [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".socials > ul > li"                                [2mno-descending-specificity[22m    
+ [2m636:1[22m   [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail > .project_details >  [2mno-descending-specificity[22m    
+            li"                                                                                                                                                  
+ [2m636:1[22m   [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail >                     [2mno-descending-specificity[22m    
+            .project_coding_langs > li"                                                                                                                          
+ [2m636:1[22m   [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail > .project_details >  [2mno-descending-specificity[22m    
+            li:first-child"                                                                                                                                      
+ [2m649:16[22m  [31m[31m✖[39m  Expected single space after ":" with a single-line declaration                                                          [2mdeclaration-colon-space-after[22m
+
+]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# npx stylelint "**/*.{css,scss}"
+
+[4mstyles.css[24m
+ [2m636:1[22m  [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".socials > ul > li"                                     [2mno-descending-specificity[22m
+ [2m636:1[22m  [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail > .project_details > li"   [2mno-descending-specificity[22m
+ [2m636:1[22m  [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail > .project_coding_langs >  [2mno-descending-specificity[22m
+           li"                                                                                                                                                   
+ [2m636:1[22m  [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail > .project_details >       [2mno-descending-specificity[22m
+           li:first-child"
+
+]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# CLEAR
+^CFatal Python error: init_import_size: Failed to import the site module
+Python runtime state: initialized
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site.py", line 81, in <module>
+    import _sitebuiltins
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 939, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1037, in get_data
+KeyboardInterrupt
+]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# ^C
+]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# clear
+[H[2J[3J]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfolio.github.io# clearCLEARnpx stylelint "**/*.{css,scss}"
+
+[4mstyles.css[24m
+ [2m636:1[22m  [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".socials > ul > li"                                     [2mno-descending-specificity[22m
+ [2m636:1[22m  [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail > .project_details > li"   [2mno-descending-specificity[22m
+ [2m636:1[22m  [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail > .project_coding_langs >  [2mno-descending-specificity[22m
+           li"                                                                                                                                                   
+ [2m636:1[22m  [31m[31m✖[39m  Expected selector ".mobile-menu-items > li" to come before selector ".card > .desktop-work-detail > .project_details >       [2mno-descending-specificity[22m
+           li:first-child"
+
+]0;root@DESKTOP-71FN4EL: /current/AhmedPortfolio.github.ioroot@DESKTOP-71FN4EL:/current/AhmedPortfoli
