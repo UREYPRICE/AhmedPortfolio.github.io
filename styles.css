@@ -103,6 +103,10 @@ button {
   justify-content: flex-start;
 }
 
+.mobile-menu-items > li {
+  padding: 10px 10px;
+}
+
 .socials > ul > li {
   list-style: none;
   margin-right: 1rem;
@@ -631,10 +635,6 @@ form > ul {
 
 .mobile-menu > ul {
   margin-top: -10px;
-}
-
-.mobile-menu-items > li {
-  padding: 10px 10px;
 }
 
 .mobile-menu-items > li > a {
