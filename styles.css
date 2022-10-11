@@ -634,14 +634,15 @@ form > ul {
   background: #6070ff;
   opacity: 0.888;
   height: 100%;
-  width: 100%;
+  width: 382px;
   z-index: 9;
-  position: absolute;
+  position: fixed;
   display: none;
 }
 
 .mobile-menu > ul {
   margin-top: -10px;
+  list-style-type: none;
 }
 
 .mobile-menu-items > li > a {
