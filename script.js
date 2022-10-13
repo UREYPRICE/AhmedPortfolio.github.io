@@ -69,16 +69,16 @@ submitButton.addEventListener('submit', (event) => {
   }
 });
 
-addEventListener("input", () => {
+document.addEventListener('input', () => {
   const Data = {
-    FullName: document.querySelector(".full-name").value,
-    EmailAdress: document.querySelector(".email-address").value,
-    TextArea: document.querySelector(".textarea").value,
+    FullName: document.querySelector('.full-name').value,
+    EmailAdress: document.querySelector('.email-address').value,
+    TextArea: document.querySelector('.textarea').value,
   };
-  localStorage.setItem("LocalFormStorage", JSON.stringify(Data));
+  localStorage.setItem('LocalFormStorage', JSON.stringify(Data));
 });
 
-const StoredData = JSON.parse(localStorage.getItem("LocalFormStorage"));
-document.querySelector(".full-name").value = StoredData.FullName;
-document.querySelector(".email-address").value = StoredData.EmailAdress;
-document.querySelector(".textarea").value = StoredData.TextArea;
+const StoredData = JSON.parse(localStorage.getItem('LocalFormStorage'));
+document.querySelector('.full-name').value = StoredData.FullName;
+document.querySelector('.email-address').value = StoredData.EmailAdress;
+document.querySelector('.textarea').value = StoredData.TextArea;
