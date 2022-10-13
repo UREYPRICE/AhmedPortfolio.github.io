@@ -684,3 +684,7 @@ footer::after {
     display: none;
   }
 }
+
+.shake {
+  color: rgb(158, 23, 23);
+}
