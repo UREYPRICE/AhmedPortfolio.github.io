@@ -49,24 +49,21 @@ window.addEventListener('resize', () => {
   body.style.overflowY = 'scroll';
 });
 
-
-
 const emailValue = document.querySelector('.email-value');
 
 const submitButton = document.querySelector('.button-email');
 
-const validationMessage = document.querySelector('.error')
+const validationMessage = document.querySelector('.error');
 
-submitButton.addEventListener("submit", (event)=> {
+submitButton.addEventListener('submit', (event) => {
   const emailValueContents = emailValue.value;
   function UpperCaseChecker() {
     const upperCaseCharaters = /[ABCDEFGHIJKLMNOPQRSTUVWXYZ]/;
     return upperCaseCharaters.test(emailValueContents);
   }
 
-    if (UpperCaseChecker() == true) {
-    validationMessage.innerHTML =
-      "Your email address should not contain upper case letters";
+  if (UpperCaseChecker() === true) {
+    validationMessage.innerHTML = 'Your email address should not contain upper case letters';
     // validationMessage.classList.add("shake");
     event.preventDefault();
   }
