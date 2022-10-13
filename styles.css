@@ -688,3 +688,7 @@ footer::after {
 .shake {
   color: rgb(158, 23, 23);
 }
+
+.error {
+  --bg-lavender: rgb(233, 114, 44);
+}
