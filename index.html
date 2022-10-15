@@ -22,11 +22,33 @@
   <body>
     <div class="after-bdy">
       <div class="portfolio-class">
-        <nav class="flex white-back">
+        <div id="mobile-menu" class="mobile-menu">
+          <div class="menu-cross">
+            <img
+              onclick="myFunction()"
+              class="cross-btn"
+              src="images/menu-cross.png"
+              alt=""
+            />
+          </div>
+
+          <ul class="mobile-menu-items">
+            <li>
+              <a onclick="myFunction()" href="#portfolio-id">Portoflio</a>
+            </li>
+            <li><a onclick="myFunction()" href="#about-id">About</a></li>
+            <li><a onclick="myFunction()" href="#contact-me-id">Contact</a></li>
+          </ul>
+        </div>
+        <nav class="flex white-back sticky">
           <a id="title" href="#">My Logo</a>
 
           <div class="flex icon-stack-container">
-            <span id="icon-stack"></span>
+            <span
+              onclick="myFunction()"
+              id="icon-stack"
+              class="icon-stack-nav"
+            ></span>
           </div>
           <ul class="desktop-menu-list">
             <li><a href="#">Portoflio</a></li>
@@ -34,8 +56,9 @@
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
+
         <main class="main-headline white-back">
-          <section class="desktop-about-section">
+          <section  class="desktop-about-section">
             <h1>
               I'm Ahmed <br />
               Glad to see you!
@@ -68,8 +91,8 @@
             </div>
           </section>
         </main>
-        <section class="projects">
-          <div class="desktop-project-container">
+        <section id="portfolio-id" class="projects">
+          <div  class="desktop-project-container">
             <article class="card flex white-back">
               <div class="desktop-wrok-img">
                 <img
@@ -299,8 +322,8 @@
           </div>
         </section>
 
-        <section class="about white-back">
-          <div class="desktop-about">
+        <section id="about-id" class="about white-back">
+          <div  class="desktop-about">
             <h1>
               About <br />
               Myself
@@ -368,7 +391,7 @@
     </div>
 
     <section class="container">
-      <div class="section">
+      <div id="contact-me-id"  class="section">
         <div>
           <h2 class="form-heading">Contact me</h2>
 
@@ -408,9 +431,12 @@
             placeholder="Write your message here"
           ></textarea>
 
-          <button class="form-btn preview_button outlinings" type="submit">Get It Touch</button>
+          <button class="form-btn preview_button outlinings" type="submit">
+            Get It Touch
+          </button>
         </form>
       </div>
     </section>
   </body>
+  <script src="script.js"></script>
 </html>

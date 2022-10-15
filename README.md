@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ureyprice.github.io/AhmedPortfolio.github.io/)
+[Demo](https://ureyprice.github.io/AhmedPortfolio.github.io/)
 
 ## Authors
 
